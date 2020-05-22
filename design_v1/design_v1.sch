@@ -1,0 +1,71 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ESP8266:NodeMCU1.0(ESP-12E) U?
+U 1 1 5EC7C372
+P 3000 3550
+F 0 "U?" H 3000 4637 60  0000 C CNN
+F 1 "NodeMCU1.0(ESP-12E)" H 3000 4531 60  0000 C CNN
+F 2 "" H 2400 2700 60  0000 C CNN
+F 3 "" H 2400 2700 60  0000 C CNN
+	1    3000 3550
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 5EC7CF43
+P 5250 4900
+F 0 "D?" H 5594 4946 50  0000 L CNN
+F 1 "WS2812B" H 5594 4855 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 5300 4600 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5350 4525 50  0001 L TNN
+	1    5250 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:HDSP-4830 BAR?
+U 1 1 5EC7D635
+P 5150 3100
+F 0 "BAR?" H 5150 3327 50  0000 C CNN
+F 1 "HDSP-4830" H 5150 3236 50  0000 C CNN
+F 2 "Display:HDSP-4830" H 5150 2800 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 5150 3100 50  0001 C CNN
+	1    5150 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:HDSP-4830 BAR?
+U 2 1 5EC7EBB9
+P 5150 3250
+F 0 "BAR?" H 5150 3477 50  0000 C CNN
+F 1 "HDSP-4830" H 5150 3386 50  0000 C CNN
+F 2 "Display:HDSP-4830" H 5150 2950 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 5150 3250 50  0001 C CNN
+	2    5150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:HDSP-4830 BAR?
+U 3 1 5EC7F5B1
+P 4800 3400
+F 0 "BAR?" H 4800 3627 50  0000 C CNN
+F 1 "HDSP-4830" H 4800 3536 50  0000 C CNN
+F 2 "Display:HDSP-4830" H 4800 3100 50  0001 C CNN
+F 3 "https://docs.broadcom.com/docs/AV02-1798EN" H 4800 3400 50  0001 C CNN
+	3    4800 3400
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
